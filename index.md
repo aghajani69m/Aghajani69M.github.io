@@ -26,3 +26,5 @@ title: "محسن آقاجانی"
 ## تماس با من
 - ایمیل: [aghajani69m@gmail.com](mailto:aghajani69m@gmail.com)
 - شماره موبایل: ۰۹۱۲۴۵۱۹۱۸۹
+- تلگرام: [@username](https://t.me/Aghajani69M)
+- لینکدین: [محسن آقاجانی](https://www.linkedin.com/in/aghajani69m)
