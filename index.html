@@ -37,7 +37,7 @@
             width: 180px;
             height: 180px;
             object-fit: cover;
-            border-radius: 50%;
+            border-radius: 15px; /* Making the image square with rounded corners */
             margin-right: 30px;
             border: 5px solid #ff5733; /* Red border for profile image */
         }
@@ -60,7 +60,7 @@
             border-radius: 10px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
             margin-top: 30px;
-            text-align: right;
+            text-align: center; /* Center-align the About section */
         }
 
         .about-section h3 {
@@ -72,7 +72,7 @@
         .about-section p {
             font-size: 1.1rem;
             line-height: 1.8;
-            text-align: right;
+            text-align: center; /* Center-align the text */
             color: #f9f9f9;
         }
 
@@ -180,13 +180,13 @@
             if (isEnglish) {
                 toggleLanguageButton.textContent = 'فارسی';
                 profileName.textContent = 'Mohsen Aghajani';
-                profileDesc.textContent = 'Backend Developer | Inforamation Technology Graduate';
+                profileDesc.textContent = 'Backend Developer | Information Technology Graduate';
                 aboutTitle.textContent = 'About Me';
                 aboutText.textContent = `I am a Computer Science graduate and have been working as a backend developer since 2021. During this time, I have gained significant experience in designing and implementing scalable and optimized systems, and I am familiar with technologies such as PHP, Laravel, and MySQL. My goal is to expand my skills in backend development and contribute to building efficient and sustainable software with development teams.`;
                 aboutText2.textContent = `I strongly believe in teamwork and always strive to help projects grow and succeed in a group environment. Additionally, I am keen on expanding my knowledge in areas such as software security, API development, and optimizing system performance to continuously progress in my career and technical expertise.`;
                 contactTitle.textContent = 'Contact Me';
                 emailText.innerHTML = 'Email Address: <strong><a href="mailto:aghajani69m@gmail.com">aghajani69m@gmail.com</a></strong>';
-                phoneText.innerHTML = 'Phone Number: <strong>09124519189</strong>';
+                phoneText.innerHTML = 'Phone Number: <strong>+989124519189</strong>';
             } else {
                 toggleLanguageButton.textContent = 'EN';
                 profileName.textContent = 'محسن آقاجانی';
