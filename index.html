@@ -11,65 +11,86 @@
         /* General styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #181818; /* Dark background */
+            background-color: #1f1f1f; /* Dark background */
             color: #f9f9f9; /* Light text color */
             margin: 0;
             padding: 0;
         }
 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Profile Header */
         .profile-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            padding: 40px 0;
             text-align: center;
-            margin-top: 30px;
+            margin-top: 50px;
         }
 
         .profile-header img {
-            width: 150px;
-            height: 150px;
+            width: 180px;
+            height: 180px;
             object-fit: cover;
             border-radius: 50%;
-            margin-bottom: 20px;
+            margin-right: 30px;
+            border: 5px solid #007BFF; /* Add a border for the profile image */
         }
 
-        .contact-icons i {
-            font-size: 1.5rem;
-            margin-right: 15px;
+        .profile-header h1 {
+            font-size: 3rem;
             color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        .profile-header p {
+            font-size: 1.2rem;
+            color: #f9f9f9;
         }
 
         /* About Section */
         .about-section {
-            background-color: #2c2c2c; /* Dark background for the section */
-            padding: 30px;
+            background-color: #2a2a2a;
+            padding: 40px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            margin-top: 20px;
-            text-align: center;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+            text-align: right;
         }
 
         .about-section h3 {
-            color: #007BFF; /* Blue color for section title */
+            color: #007BFF;
+            font-size: 2rem;
             margin-bottom: 20px;
         }
 
-        /* Right-align text inside About Section */
         .about-section p {
-            text-align: right; /* Right-align the text */
             font-size: 1.1rem;
             line-height: 1.8;
-            direction: rtl; /* Right-to-left text direction */
+            text-align: right;
+            color: #f9f9f9;
         }
 
+        /* Contact Section */
         .contact-info {
-            margin-top: 30px;
+            margin-top: 40px;
             text-align: center;
         }
 
-        .contact-info p {
-            color: #f9f9f9; /* Light text color */
+        .contact-info h3 {
+            color: #007BFF;
+            font-size: 2rem;
+            margin-bottom: 20px;
         }
 
-        /* Dark links */
         .contact-icons a {
+            font-size: 2rem;
+            margin: 0 20px;
             color: #007BFF;
             text-decoration: none;
         }
@@ -78,9 +99,11 @@
             color: #0056b3;
         }
 
-        .contact-info a {
-            color: #007BFF;
+        .contact-info p {
+            color: #f9f9f9;
+            font-size: 1.1rem;
         }
+
     </style>
 </head>
 
@@ -89,8 +112,10 @@
     <!-- Profile Header -->
     <div class="container profile-header">
         <img src="assets/images/profile-pic.jpg" alt="محسن آقاجانی">
-        <h1>محسن آقاجانی</h1>
-        <p>توسعه‌دهنده بک‌اند | فارغ‌التحصیل رشته فناوری اطلاعات</p>
+        <div>
+            <h1>محسن آقاجانی</h1>
+            <p>توسعه‌دهنده بک‌اند | فارغ‌التحصیل رشته فناوری اطلاعات</p>
+        </div>
     </div>
 
     <div class="container">
