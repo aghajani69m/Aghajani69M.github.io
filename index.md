@@ -4,10 +4,9 @@ title: "محمدمحسن آقاجانی"
 ---
 
 <div style="text-align: right;">
-    <img src="assets/profile-pic.jpg" alt="محمدمحسن آقاجانی" style="width: 150px; height: 150px; border-radius: 50%; float: right; margin-left: 20px;"/>
-    <h1>سلام! من محمدمحسن آقاجانی هستم</h1>
+    <img src="assets/profile-pic.jpg" alt="محسن آقاجانی" style="width: 150px; height: 150px; border-radius: 50%; float: right; margin-left: 20px;"/>
+    <h1>سلام! من محسن آقاجانی هستم</h1>
     <p>من مهندس فناوری اطلاعات و توسعه‌دهنده نرم‌افزار هستم. در حال حاضر، به عنوان بک‌اند دولوپر در شرکت <strong>وایزترک</strong> فعالیت می‌کنم. به برنامه‌نویسی، حل چالش‌های فنی و یادگیری تکنولوژی‌های جدید علاقه زیادی دارم.</p>
-</div>
 
 ## مهارت‌ها
 - **PHP** و **Laravel**
@@ -26,3 +25,4 @@ title: "محمدمحسن آقاجانی"
 ## تماس با من
 - ایمیل: [aghajani69m@gmail.com](mailto:aghajani69m@gmail.com)
 - شماره موبایل: ۰۹۱۲۴۵۱۹۱۸۹
+</div>
